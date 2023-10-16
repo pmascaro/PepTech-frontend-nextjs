@@ -18,7 +18,7 @@ const Home = () => {
           </div>
           {/* END AVATAR */}
           <div className="details">
-            <h5 className="name">Pep Martí Mascaró Monserrat</h5>
+            <h5 className="name" style={{fontSize: '1.9em'}}>Pep Martí Mascaró Monserrat</h5>
             <h4 className="typer">
               <Typed
                 strings={[
@@ -28,7 +28,7 @@ const Home = () => {
                   /*"Writer",*/
                 ]}
                 loop
-                typeSpeed={80}
+                typeSpeed={80} style={{fontSize: '0.9em'}}
               />
             </h4>
 
