@@ -11,7 +11,7 @@ const Home = () => {
             <div
               className="image avatar_img"
               style={{
-                backgroundImage: "url(/img/slider/1.jpg)",
+                backgroundImage: "url(/img/slider/home.jpg)",
               }}
             ></div>
             {/* END AVATAR IMAGE */}
@@ -39,7 +39,7 @@ const Home = () => {
             Data Science, MLOps, and Software Engineering.
             </p>
             <p className="job-added-msg" style={{fontStyle: 'italic', marginBottom: '20px'}} >
-            Dive in and enjoy discovering what I&apos;ve been up to!
+            <i><b>Dive in and enjoy discovering what I&apos;ve been up to!</b></i>
             </p>
             {/* END JOB */}
             <Social />

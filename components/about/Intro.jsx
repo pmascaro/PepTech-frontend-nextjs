@@ -2,22 +2,24 @@ import React from "react";
 
 const Intro = () => {
   const introContent = {
-    image: "/img/slider/1.jpg",
-    name: "Adriano Smith",
-    designation: "Web Developer",
+    image: "/img/slider/presentation.jpeg",
+    name: "Pep Martí Mascaró Monserrat",
+    designation: "Senior Data Scientist & Generative AI Specialist",
     text: (
       <>
         <p>
-          Hi, my name is Adriano Smith and I began using WordPress when it first
-          began. I’ve spent most of my waking hours for the last ten years
-          designing, programming and operating WordPress sites.
+        Hello! I'm Pep. For me, 'Start with <i>WHY</i>' is more than just a phrase; 
+        it's the compass guiding everything I do. 
+        Throughout understanding people's stories and needs, my mission is to make life better. 
+        Beyond just numbers or algorithms, I'm passionate about finding solutions to real challenges, 
+        often leveraging the power of AI.
         </p>
         <p>
-          One of my specialties is taking an idea from scratch and creating a
-          full-fledged platform. I go beyond to produce sites with a unique,
-          outstanding, contemporary look-and-feel. With extensive knowledge of
-          web mechanics, I’m able to optimize complex integrations to require
-          little-to-no maintenance while running on their own for years.
+        While I emphasise collective impact and the importance of teams, this website is a personal canvas. 
+        It's where I showcase my work, share my solutions, and reflect on my experiences. 
+        My vision is that while individual efforts can shine, it's the impact we have on others 
+        that truly defines us. So I want to welcome you to my space, where I bridge the gap between technology 
+        and human narratives, one solution at a time.
         </p>
       </>
     ),

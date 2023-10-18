@@ -5,18 +5,18 @@ module.exports = [
     menuName: "Home",
     routePath: "/home",
   },
-  {
-    id: 2,
-    icon: "/img/svg/avatar.svg",
-    menuName: "About",
-    routePath: "/about",
-  },
   // {
-  //   id: 3,
+  //   id: 2,
   //   icon: "/img/svg/setting.svg",
   //   menuName: "Service",
   //   routePath: "/service",
   // },
+  {
+    id: 3,
+    icon: "/img/svg/avatar.svg",
+    menuName: "About",
+    routePath: "/about",
+  },
   {
     id: 4,
     icon: "/img/svg/briefcase.svg",

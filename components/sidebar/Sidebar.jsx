@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import sidebarData from "../../data/sidebarData";
-import CopyRight from "../CopyRight";
+// import CopyRight from "../CopyRight";
 import { isActiveLink } from "../../utilis/linkActiveChecker";
 import { useRouter } from "next/router";
 import { useState } from "react";
@@ -87,8 +87,8 @@ const Sidebar = () => {
           </div>
           {/* END MENU */}
 
-          <CopyRight />
-          {/* END COPYRIGHT */}
+          {/* <CopyRight /> */}
+          {/* END COPYRIGHT - Commented for now*/}
         </div>
       </div>
       {/* END LEFT MENU CONTENT */}
