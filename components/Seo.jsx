@@ -4,7 +4,7 @@ const Seo = ({ pageTitle }) => {
   return (
     <Head>
       <title>
-        {pageTitle ?
+        {pageTitle &&
           `${pageTitle} || PepTech: Pep's Portfolio and Blog Site`}
       </title>
     </Head>
