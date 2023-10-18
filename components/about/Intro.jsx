@@ -8,7 +8,10 @@ const Intro = () => {
     text: (
       <>
         <p>
-        Hello! I&apos;am Pep. The principle of starting with <i>WHY</i> is more than just a slogan for me; 
+        Hello! I&apos;m Pep,
+        </p>
+        <p>
+        The principle of starting with <i>WHY</i> is more than just a slogan for me; 
         it&apos;s the compass guiding all I do. 
         My mission is to enhance our lives throughout understanding people&apos;s stories and needs.
         </p>
