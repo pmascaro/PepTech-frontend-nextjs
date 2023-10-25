@@ -11,7 +11,7 @@ const Intro = () => {
         Hello! I&apos;m Pep,
         </p>
         <p>
-        Living by the principle of 'starting with WHY,' my focus centers on personal growth and meaningful impact. 
+        Living by the principle of &apos;starting with WHY,&apos; my focus centers on personal growth and meaningful impact. 
         Inwardly, I strive to become closer to my true self; outwardly, I aim to be an agent of change, creating a positive 
         impact on the world around me. One of the ways I bring this philosophy to life is by leveraging the transformative 
         power of data analytics and AI to solve real-world challenges.
