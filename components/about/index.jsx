@@ -39,45 +39,44 @@ const AboutMain = () => {
       </div>
       {/* End .container */}
 
-      <div className="tokyo_tm_progressbox">
-        <div className="container">
-          <div className="in">
-            <Skills />
-          </div>
+      {/* <div className="tokyo_tm_progressbox"> */}
+          {/* <div className="in"> */}
+            {/* <Skills /> */}
+          {/* </div> */}
           {/* End in */}
-        </div>
+        {/* </div> */}
         {/* End .container */}
-      </div>
+      {/* </div> */}
       {/* End tokyo_tm_progressbox */}
 
-      <div className="tokyo_tm_skillbox">
-        <div className="container">
-          <div className="in">
-            <KnowledgeInterest />
-          </div>
-        </div>
-      </div>
+      {/* <div className="tokyo_tm_skillbox"> */}
+        {/* <div className="container"> */}
+          {/* <div className="in"> */}
+            {/* <KnowledgeInterest /> */}
+          {/* </div> */}
+        {/* </div> */}
+      {/* </div> */}
       {/* End .tokyo_tm_skillbox */}
 
-      <div className="tokyo_tm_resumebox">
-        <div className="container">
-          <div className="in">
-            <Resume />
-          </div>
-        </div>
-      </div>
+      {/* <div className="tokyo_tm_resumebox"> */}
+        {/* <div className="container"> */}
+          {/* <div className="in"> */}
+            {/* <Resume /> */}
+          {/* </div> */}
+        {/* </div> */}
+      {/* </div> */}
       {/* End tokyo_tm_resumebox */}
 
-      <div className="tokyo_tm_testimonials">
-        <div className="container">
-          <div className="tokyo_section_title">
-            <h3>Testimonials</h3>
-          </div>
-          <div className="list">
-            <Testimonial />
-          </div>
-        </div>
-      </div>
+      {/* <div className="tokyo_tm_testimonials"> */}
+        {/* <div className="container"> */}
+          {/* <div className="tokyo_section_title"> */}
+            {/* <h3>Testimonials</h3> */}
+          {/* </div> */}
+          {/* <div className="list"> */}
+            {/* <Testimonial /> */}
+          {/* </div> */}
+        {/* </div> */}
+      {/* </div> */}
       {/* End tokyo_tm_testimonials */}
 
       {/* /ABOUT */}
