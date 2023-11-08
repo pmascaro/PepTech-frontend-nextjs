@@ -51,7 +51,7 @@ const Preview = () => {
       <div className="tokyo_tm_all_wrap">
         <div className="tokyo_tm_intro">
           <div className="short_info">
-            <img src="/img/logo/dark.png" alt="logo" />
+            <img src="/img/logo/peptech.png" alt="logo" />
             <h3>
               Personal Portfolio <strong>React NextJS</strong> Template
             </h3>

@@ -43,9 +43,9 @@ const Portfolio = () => {
           {/* START FILTER TABLIST */}
           <TabList>
             <Tab>All</Tab>
-            <Tab>Videos</Tab>
-            <Tab>Photography</Tab>
-            <Tab>Details</Tab>
+            {/* <Tab>Videos</Tab> */}
+            {/* <Tab>Photography</Tab> */}
+            {/* <Tab>Details</Tab> */}
           </TabList>
           {/* END FILTER TABLIST */}
 
@@ -57,7 +57,7 @@ const Portfolio = () => {
                 data-aos="fade-right"
                 data-aos-duration="1200"
               >
-                <li>
+                {/* <li>
                   <div className="inner">
                     <div className="entry tokyo_tm_portfolio_animation_wrap">
                       <Image
@@ -83,10 +83,10 @@ const Portfolio = () => {
                       </ReactTooltip>
                     </div>
                   </div>
-                </li>
+                </li> */}
                 {/* END VIMEO */}
 
-                <li>
+                {/* <li>
                   <div className="inner">
                     <div className="entry tokyo_tm_portfolio_animation_wrap">
                       <Image
@@ -112,10 +112,10 @@ const Portfolio = () => {
                       </ReactTooltip>
                     </div>
                   </div>
-                </li>
+                </li> */}
                 {/* END YOUTUBE */}
 
-                <li>
+                {/* <li>
                   <div className="inner">
                     <div className="entry tokyo_tm_portfolio_animation_wrap">
                       <Item
@@ -153,10 +153,10 @@ const Portfolio = () => {
                       </ReactTooltip>
                     </div>
                   </div>
-                </li>
+                </li> */}
                 {/* END SHOT */}
 
-                <li>
+                {/* <li>
                   <div className="inner">
                     <div className="entry tokyo_tm_portfolio_animation_wrap">
                       <Item
@@ -194,7 +194,7 @@ const Portfolio = () => {
                       </ReactTooltip>
                     </div>
                   </div>
-                </li>
+                </li> */}
                 {/* END SHOT */}
 
                 <li>
@@ -203,7 +203,7 @@ const Portfolio = () => {
                       <Image
                         width={300}
                         height={300}
-                        src="/img/portfolio/6.jpg"
+                        src="/img/portfolio/AfriCover_Analytics-2.jpg"
                         alt="Details"
                         data-tip
                         data-for="detail"
@@ -218,7 +218,7 @@ const Portfolio = () => {
                         className="tooltip-wrapper"
                       >
                         <div>
-                          <h5>Selena Gomez</h5>
+                          <h5>Pep Mascaro Monserrat</h5>
                           <span>Details</span>
                         </div>
                       </ReactTooltip>
@@ -227,7 +227,7 @@ const Portfolio = () => {
                 </li>
                 {/* END DETAILS */}
 
-                <li>
+                {/* <li>
                   <div className="inner">
                     <div className="entry tokyo_tm_portfolio_animation_wrap">
                       <Image
@@ -254,14 +254,14 @@ const Portfolio = () => {
                       </ReactTooltip>
                     </div>
                   </div>
-                </li>
+                </li> */}
                 {/* END DETAILS */}
               </ul>
             </TabPanel>
             {/* END ALL PORTFOLIO */}
 
             {/* START VIDEOS */}
-            <TabPanel>
+            {/* <TabPanel>
               <ul
                 className="portfolio_list"
                 data-aos="fade-right"
@@ -293,9 +293,9 @@ const Portfolio = () => {
                       </ReactTooltip>
                     </div>
                   </div>
-                </li>
+                </li> */}
                 {/* END VIMEO */}
-                <li>
+                {/* <li>
                   <div className="inner">
                     <div className="entry tokyo_tm_portfolio_animation_wrap">
                       <Image
@@ -321,15 +321,15 @@ const Portfolio = () => {
                       </ReactTooltip>
                     </div>
                   </div>
-                </li>
+                </li> */}
                 {/* END YOUTUBE */}
-              </ul>
+              {/* </ul> */}
               {/* END PORTFOLIO LIST */}
-            </TabPanel>
+            {/* </TabPanel> */}
             {/* END VIDEOS */}
 
             {/* START PHOTOGRAHY */}
-            <TabPanel>
+            {/* <TabPanel>
               <ul
                 className="portfolio_list"
                 data-aos="fade-right"
@@ -373,9 +373,9 @@ const Portfolio = () => {
                       </ReactTooltip>
                     </div>
                   </div>
-                </li>
+                </li> */}
                 {/* END SHOT */}
-                <li>
+                {/* <li>
                   <div className="inner">
                     <div className="entry tokyo_tm_portfolio_animation_wrap">
                       <Item
@@ -413,11 +413,11 @@ const Portfolio = () => {
                       </ReactTooltip>
                     </div>
                   </div>
-                </li>
+                </li> */}
                 {/* END SHOT */}
-              </ul>
+              {/* </ul> */}
               {/* END PORTFOLIO LIST */}
-            </TabPanel>
+            {/* </TabPanel> */}
             {/* END PHOTOGRAHY */}
 
             {/* START PORTFOLIO DETAILS */}
@@ -456,7 +456,7 @@ const Portfolio = () => {
                   </div>
                 </li>
                 {/* END DETAILS */}
-                <li>
+                {/* <li>
                   <div className="inner">
                     <div className="entry tokyo_tm_portfolio_animation_wrap">
                       <Image
@@ -483,7 +483,7 @@ const Portfolio = () => {
                       </ReactTooltip>
                     </div>
                   </div>
-                </li>
+                </li> */}
                 {/* END DETAILS */}
               </ul>
               {/* END DETAILS GALLERY */}
@@ -495,23 +495,23 @@ const Portfolio = () => {
       </Gallery>
 
       {/* START YOUTUBE VIDEO POPUP */}
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpenYoutube}
         videoId="1gyTUHP6ne8"
         onClose={() => setOpenYoutube(false)}
-      />
+      /> */}
       {/* EMD YOUTUBE VIDEO POPUP */}
 
       {/* START VIMEO VIDEO POPUP  */}
-      <ModalVideo
+      {/* <ModalVideo
         channel="vimeo"
         autoplay
         isOpen={isOpenVimeo}
         videoId="100171151"
         onClose={() => setOpenVimeo(false)}
-      />
+      /> */}
       {/* END VIMEO VIDEO POPUP */}
 
       {/* START MODAL FOR PORTFOLIO DETAILS */}
@@ -537,7 +537,7 @@ const Portfolio = () => {
       {/* END MODAL FOR PORTFOLIO DETAILS */}
 
       {/* START MODAL FOR PORTFOLIO DETAILS */}
-      <Modal
+      {/* <Modal
         isOpen={isOpenModalTwo}
         onRequestClose={toggleModalTwo}
         contentLabel="My dialog"
@@ -548,13 +548,13 @@ const Portfolio = () => {
         <div className="tokyo_tm_modalbox_news portfolio_tm_modalbox">
           <button className="close-modal" onClick={toggleModalTwo}>
             <img src="/img/svg/cancel.svg" alt="close icon" />
-          </button>
+          </button> */}
           {/* END CLOSE ICON */}
-          <ModalTwo />
+          {/* <ModalTwo /> */}
           {/* END BOX INNER */}
-        </div>
+        {/* </div> */}
         {/* END MODALBOX NEWS */}
-      </Modal>
+      {/* </Modal> */}
       {/* END MODAL FOR PORTFOLIO DETAILS */}
     </>
   );

@@ -33,10 +33,10 @@ const Home = () => {
             </h4>
 
             <p className="job" style={{fontSize: '0.9em'}}>
-            My driving purpose is to uplift the world through innovative applications of Data Science. 
+            My driving purpose is to uplift the world through innovative applications of Data Science/AI. 
             This website serves as both a portfolio and a journal, where I showcase projects that are 
             close to my heart. It&apos;s also a space where I document my ongoing journey to master 
-            Data Science, MLOps, and Software Engineering.
+            Data Science and AI.
             </p>
             <p className="job-added-msg" style={{fontStyle: 'italic', marginBottom: '20px'}} >
             <i><b>Dive in and enjoy discovering what I&apos;ve been up to!</b></i>

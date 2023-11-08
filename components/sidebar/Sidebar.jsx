@@ -18,9 +18,9 @@ const Sidebar = () => {
           <div className="logo">
             <Link className="navbar-brand" href="/">
               <Image
-                width={140}
-                height={20}
-                src="/img/logo/dark.png"
+                width={98}
+                height={100}
+                src="/img/logo/peptech-2.png"
                 alt="brand"
               />
             </Link>
@@ -51,9 +51,9 @@ const Sidebar = () => {
           <div className="logo">
             <Link className="navbar-brand" href="/">
               <Image
-                width={135}
-                height={20}
-                src="/img/logo/dark.png"
+                width={98}
+                height={100}
+                src="/img/logo/peptech-2.png"
                 alt="brand"
               />
             </Link>

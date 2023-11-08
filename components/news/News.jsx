@@ -22,7 +22,7 @@ const News = () => {
 
   return (
     <>
-      <ul>
+      {/* <ul>
         {newsData.map((item) => (
           <li key={item.id}>
             <div className="list_inner" onClick={() => handleModle(item?.id)}>
@@ -33,34 +33,34 @@ const News = () => {
                     backgroundImage: `url(${item.img})`,
                   }}
                 ></div>
-              </div>
+              </div> */}
               {/* END IMAGE */}
-              <div className="details">
+              {/* <div className="details">
                 <div className="extra">
                   <p className="date">
                     By <a href="#">{item.poster}</a>
                     <span>{item.date}</span>
                   </p>
-                </div>
+                </div> */}
                 {/* END EXTRA */}
 
-                <h3 className="title">{item.title}</h3>
+                {/* <h3 className="title">{item.title}</h3>
                 <div className="tokyo_tm_read_more">
                   <div className="read-more">
                     <span>Read More</span>
                   </div>
-                </div>
+                </div> */}
                 {/* END READ MORE BUTTON */}
-              </div>
+              {/* </div> */}
               {/* END DETAILS */}
-            </div>
+            {/* </div>
           </li>
-        ))}
+        ))} */}
 
         {/* END SINGLE BLOG */}
-      </ul>
+      {/* </ul> */}
       {/* START MODAL */}
-      <Modal
+      {/* <Modal
         isOpen={isOpen}
         onRequestClose={() => setIsOpen(false)}
         contentLabel="My dialog"
@@ -76,10 +76,10 @@ const News = () => {
               src="/img/svg/cancel.svg"
               alt="close icon"
             />
-          </button>
+          </button> */}
           {/* END CLOSE ICON */}
 
-          <div className="box_inner">
+          {/* <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
                 <div
@@ -88,9 +88,9 @@ const News = () => {
                     backgroundImage: `url(${singleData?.img})`,
                   }}
                 ></div>
-              </div>
+              </div> */}
               {/* END IMAGE */}
-              <div className="details">
+              {/* <div className="details">
                 <div className="extra">
                   <p className="date">
                     By <a href="#">{singleData?.poster}</a>
@@ -98,24 +98,24 @@ const News = () => {
                   </p>
                 </div>
                 <h3 className="title">{singleData?.title}</h3>
-              </div>
+              </div> */}
               {/* END DETAILS */}
-              <div className="main_content ">
-                {singleData?.descriptions}
+              {/* <div className="main_content ">
+                {singleData?.descriptions} */}
                 {/* END DESCRIPTION */}
-                <div className="news_share">
-                  <span>Share:</span>
-                  <ShareSocial />
+                {/* <div className="news_share">
+                  <span>Share:</span> */}
+                  {/* <ShareSocial /> */}
                   {/* END SOCIAL SHARE */}
-                </div>
+                {/* </div> */}
                 {/* END NEWS SHARE */}
-              </div>
+              {/* </div>
             </div>
-          </div>
+          </div> */}
           {/* END BOX INNER */}
-        </div>
+        {/* </div> */}
         {/* END MODALBOX NEWS */}
-      </Modal>
+      {/* </Modal> */}
       {/* END MODAL */}
     </>
   );
