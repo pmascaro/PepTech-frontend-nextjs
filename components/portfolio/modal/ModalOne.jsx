@@ -16,7 +16,9 @@ const ModalOne = () => {
         {/* END IMAGE */}
         <div className="portfolio_main_title">
           <h3>AfriCover Analytics</h3>
-          <span>Link to project here: https://pmascaro.shinyapps.io/Africa/</span>
+          <span>Link to project here: 
+          <a href="https://pmascaro.shinyapps.io/Africa/" target="_blank">https://pmascaro.shinyapps.io/Africa/</a>
+          </span>
         </div>
         {/* END portfolio_main_title */}
         <div className="main_details">
