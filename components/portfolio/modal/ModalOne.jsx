@@ -15,40 +15,32 @@ const ModalOne = () => {
         </div>
         {/* END IMAGE */}
         <div className="portfolio_main_title">
-          <h3>Selena Gomez</h3>
+          <h3>AfriCover Analytics</h3>
           <span>Details</span>
         </div>
         {/* END portfolio_main_title */}
         <div className="main_details">
           <div className="textbox">
             <p>
-              We live in a world where we need to move quickly and iterate on
-              our ideas as flexibly as possible. Building mockups strikes the
-              ideal balance between true-life representation of the end product
-              and ease of modification.
-            </p>
-            <p>
-              Mockups are useful both for the creative phase of the project -
-              for instance when you&lsquo;re trying to figure out your user
-              flows or the proper visual hierarchy - and the production phase
-              when they will represent the target product. Making mockups a part
-              of your creative and development process allows you to quickly and
-              easily ideate.
+            Step into 'AfriCover Analytics' to see Africa's lands and travel patterns from 2013-2018. Built with easy-to-use tools, 
+            R and Shiny, this project lets you click and discover stories of movement and nature. All the charts and maps come from 
+            careful study and creative design, ready for you to explore. If you're curious about how it's all put together, the code is ready 
+            for a look on GitHub. It's data storytelling, inspired by the BBC, made simple for everyone.
             </p>
           </div>
           <div className="detailbox">
             <ul>
-              <li>
+              {/* <li>
                 <span className="first">Client</span>
                 <span>Alvaro Morata</span>
-              </li>
+              </li> */}
               <li>
                 <span className="first">Category</span>
                 <span>Details</span>
               </li>
               <li>
                 <span className="first">Date</span>
-                <span>March 07, 2021</span>
+                <span>May 2020</span>
               </li>
               <li>
                 <span className="first">Share</span>

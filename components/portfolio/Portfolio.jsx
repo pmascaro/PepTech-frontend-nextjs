@@ -218,8 +218,8 @@ const Portfolio = () => {
                         className="tooltip-wrapper"
                       >
                         <div>
-                          <h5>Pep Mascaro Monserrat</h5>
-                          <span>Details</span>
+                          <h5>AfriCover Analytics</h5>
+                          <span>Press here to explore project insights</span>
                         </div>
                       </ReactTooltip>
                     </div>
