@@ -17,9 +17,9 @@ const ModalOne = () => {
         <div className="portfolio_main_title">
           <h3>AfriCover Analytics</h3>
           <span>Link to the project here: 
-            {/* <a href="https://pmascaro.shinyapps.io/Africa/" target="_blank">
-              <span>https://pmascaro.shinyapps.io/Africa/</span> 
-            </a> */}
+            <a href="https://pmascaro.shinyapps.io/Africa/" target="_blank">
+              <span>AfriCover Analytics Shiny App</span> 
+            </a>
           </span>
         </div>
         {/* END portfolio_main_title */}
