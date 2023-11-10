@@ -22,10 +22,10 @@ const ModalOne = () => {
         <div className="main_details">
           <div className="textbox">
             <p>
-            {/* Step into &apos;AfriCover Analytics&apos; to see Africa&apos;s lands and travel patterns from 2013/2018. Built with easy to use tools, 
+            {/* Step into &apos;AfriCover Analytics&apos; to see Africa&apos;s lands and travel patterns from 2013&mdash;2018. Built with easy&mdash;to&mdash;use tools,
             R and Shiny, this project lets you click and discover stories of movement and nature. All the charts and maps come from 
-            careful study and creative design, ready for you to explore. If you&apos;re curious about how it&apos;s all put together, the code is ready 
-            for a look on GitHub. It&apos;s data storytelling, inspired by the BBC, made simple for everyone. */}
+            careful study and creative design, ready for you to explore. If you&apos;re curious about how it&apos;s all put together, the code is ready  */}
+            for a look on GitHub. It&apos;s data storytelling, inspired by the BBC, made simple for everyone.
             </p>
           </div>
           <div className="detailbox">
