@@ -16,7 +16,10 @@ const ModalOne = () => {
         {/* END IMAGE */}
         <div className="portfolio_main_title">
           <h3>AfriCover Analytics</h3>
-          <span>Link to the project here: <a href="https://pmascaro.shinyapps.io/Africa/" target="_blank">https://pmascaro.shinyapps.io/Africa/</a>
+          <span>Link to the project here: 
+            <a href="https://pmascaro.shinyapps.io/Africa/" target="_blank"> 
+              <span> https://pmascaro.shinyapps.io/Africa/ </span> 
+            </a>
           </span>
         </div>
         {/* END portfolio_main_title */}
