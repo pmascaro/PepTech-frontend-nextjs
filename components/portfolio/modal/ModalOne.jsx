@@ -17,7 +17,7 @@ const ModalOne = () => {
         <div className="portfolio_main_title">
           <h3>AfriCover Analytics</h3>
           <span>Link to the project here: 
-            <a href="https://pmascaro.shinyapps.io/Africa/" target="_blank">AfriCover Analytics Shiny App</a>
+            <a href="https://pmascaro.shinyapps.io/Africa/" target="_blank" rel="noreferrer"> AfriCover Analytics Shiny App </a> {/*target="_blank"*/} {/* AfriCover Analytics Shiny App  */}
           </span>
         </div>
         {/* END portfolio_main_title */}
@@ -27,7 +27,8 @@ const ModalOne = () => {
             Step into &apos;AfriCover Analytics&apos; to see Africa&apos;s lands and travel patterns from 2013&mdash;2018. Built with
             R and Shiny, this project lets you click and discover stories of movement and nature. All the charts and maps come from 
             careful study and creative design, ready for you to explore. If you&apos;re curious about how it&apos;s all put together, the code is ready
-            for a look on GitHub. It&apos;s data storytelling, inspired by the BBC, made simple for everyone.
+            for a look on GitHub (link here: https://github.com/pmascaro/Shiny-App-Inbound-arrivals-to-Africa.git). 
+            It&apos;s data storytelling, inspired by the BBC, made simple for everyone.
             </p>
           </div>
           <div className="detailbox">
