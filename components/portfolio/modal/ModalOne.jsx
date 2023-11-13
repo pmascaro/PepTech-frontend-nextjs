@@ -5,11 +5,11 @@ const ModalOne = () => {
     <div className="box_inner">
       <div className="description_wrap scrollable">
         <div className="image">
-          <img src="/img/thumbs/4-3.jpg" alt="tumb" />
+          <img src="/img/portfolio/africa_landing_page.png" alt="tumb" />
           <div
             className="main"
             style={{
-              backgroundImage: "url(/img/portfolio/6.jpg)",
+              backgroundImage: "url(/img/portfolio/africa_landing_page.png)",
             }}
           ></div>
         </div>
@@ -27,7 +27,7 @@ const ModalOne = () => {
             Step into &apos;AfriCover Analytics&apos; to see Africa&apos;s lands and travel patterns from 2013&mdash;2018. Built with
             R and Shiny, this project lets you click and discover stories of movement and nature. All the charts and maps come from 
             careful study and creative design, ready for you to explore. If you&apos;re curious about how it&apos;s all put together, the code is ready
-            for a look on GitHub (link here: https://github.com/pmascaro/Shiny-App-Inbound-arrivals-to-Africa.git). 
+            for a look on this <a href="https://github.com/pmascaro/Shiny-App-Inbound-arrivals-to-Africa.git" target="_blank" rel="noreferrer"> GitHub Repository</a>.
             It&apos;s data storytelling, inspired by the BBC, made simple for everyone.
             </p>
           </div>
@@ -44,6 +44,9 @@ const ModalOne = () => {
               <li>
                 <span className="first">Date</span>
                 <span>May 2020</span>
+              </li>
+              <li>
+                <span className="first"> <a href="https://github.com/pmascaro/Shiny-App-Inbound-arrivals-to-Africa.git" target="_blank" rel="noreferrer"> GitHub Repo</a> </span>
               </li>
               <li>
                 <span className="first">Share</span>
@@ -63,7 +66,7 @@ const ModalOne = () => {
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(/img/portfolio/6.jpg)",
+                      backgroundImage: "url(/img/portfolio/africa_img_by_country.png)",
                     }}
                   ></div>
                 </div>
