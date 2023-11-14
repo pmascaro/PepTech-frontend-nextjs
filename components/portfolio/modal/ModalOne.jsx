@@ -79,7 +79,7 @@ const ModalOne = () => {
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(/img/portfolio/2.jpg)",
+                      backgroundImage: "url(/img/portfolio/africa_inbound_arrivals.png)",
                     }}
                   ></div>
                 </div>
@@ -92,7 +92,7 @@ const ModalOne = () => {
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(/img/portfolio/3.jpg)",
+                      backgroundImage: "url(/img/portfolio/africa_trends.png)",
                     }}
                   ></div>
                 </div>
