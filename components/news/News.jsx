@@ -22,7 +22,7 @@ const News = () => {
 
   return (
     <>
-      {/* <ul>
+      <ul>
         {newsData.map((item) => (
           <li key={item.id}>
             <div className="list_inner" onClick={() => handleModle(item?.id)}>
@@ -33,32 +33,32 @@ const News = () => {
                     backgroundImage: `url(${item.img})`,
                   }}
                 ></div>
-              </div> */}
+              </div>
               {/* END IMAGE */}
-              {/* <div className="details">
+              <div className="details">
                 <div className="extra">
                   <p className="date">
-                    By <a href="#">{item.poster}</a>
+                    <a href="#">{item.poster}</a>
                     <span>{item.date}</span>
                   </p>
-                </div> */}
+                </div>
                 {/* END EXTRA */}
 
-                {/* <h3 className="title">{item.title}</h3>
+                <h3 className="title">{item.title}</h3>
                 <div className="tokyo_tm_read_more">
                   <div className="read-more">
                     <span>Read More</span>
                   </div>
-                </div> */}
+                </div>
                 {/* END READ MORE BUTTON */}
-              {/* </div> */}
+              </div>
               {/* END DETAILS */}
-            {/* </div>
+            </div>
           </li>
-        ))} */}
+        ))}
 
         {/* END SINGLE BLOG */}
-      {/* </ul> */}
+      </ul>
       {/* START MODAL */}
       {/* <Modal
         isOpen={isOpen}

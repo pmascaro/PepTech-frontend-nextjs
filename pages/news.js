@@ -21,8 +21,8 @@ const index = () => {
                   <div className="tokyo_tm_title">
                     <div className="title_flex">
                       <div className="left">
-                        <span>News</span>
-                        <h3>Latest News</h3>
+                        <span>Blog</span>
+                        <h3>What I&apos;ve Been Up To</h3>
                       </div>
                     </div>
                   </div>
