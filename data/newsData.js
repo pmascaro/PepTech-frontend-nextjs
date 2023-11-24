@@ -4,27 +4,24 @@ module.exports = [
   {
     id: 1,
     title: "Supporting Movember",
-    img: "/img/news/pep_movember_2023.png",
-    // poster: "ALEX WATSON",
+    img: "/img/news/pep_mo_2023.png",
+    poster: "Pep Marti Mascaro Monserrat",
     date: "24 November 2023",
     descriptions: (
       <>
         <div className="descriptions">
           <p className="bigger">
-            Just because we can&apos;t get out and about like we normally would,
-            doesn’t mean we have to stop taking pictures. There’s still plenty
-            you can do, provided you&apos;re prepared to use some imagination.
-            Here are a few ideas to keep you shooting until normal life resumes.
+            PLACEHOLDER TEXT
           </p>
 
           <p>
-            Streets empty that are usually busy are remarkable and can evoke the
+            {/* Streets empty that are usually busy are remarkable and can evoke the
             sense of historical pictures from before the invention of the
             motorcar. Other things that are different at the moment will be
             queues to get into stores and the lines marked out on the floor to
-            show how far apart we should be.
+            show how far apart we should be. */}
           </p>
-          <div className="quotebox">
+          {/* <div className="quotebox">
             <div className="icon">
               <Image
                 width={56}
@@ -40,15 +37,15 @@ module.exports = [
               always exactly what our photography needed, as shooting away from
               home consistently inspires us to new artistic heights.
             </p>
-          </div>
+          </div> */}
           {/* END QUOTEBOX */}
 
           <p>
-            The trick here is to look slowly, and then look again. Take the time
+            {/* The trick here is to look slowly, and then look again. Take the time
             to look in detail and to look at the same thing from different
             angles, with different light, long lenses and wide lenses. Then move
             to the left a bit. You may never feel the need to leave the house
-            again.
+            again. */}
           </p>
         </div>
       </>

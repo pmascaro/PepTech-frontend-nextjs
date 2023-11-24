@@ -38,7 +38,7 @@ const News = () => {
               <div className="details">
                 <div className="extra">
                   <p className="date">
-                    <a href="#">{item.poster}</a>
+                    {/* <a href="#">{item.poster}</a> */}
                     <span>{item.date}</span>
                   </p>
                 </div>
@@ -60,7 +60,7 @@ const News = () => {
         {/* END SINGLE BLOG */}
       </ul>
       {/* START MODAL */}
-      {/* <Modal
+      <Modal
         isOpen={isOpen}
         onRequestClose={() => setIsOpen(false)}
         contentLabel="My dialog"
@@ -76,10 +76,10 @@ const News = () => {
               src="/img/svg/cancel.svg"
               alt="close icon"
             />
-          </button> */}
+          </button>
           {/* END CLOSE ICON */}
 
-          {/* <div className="box_inner">
+          <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
                 <div
@@ -88,34 +88,34 @@ const News = () => {
                     backgroundImage: `url(${singleData?.img})`,
                   }}
                 ></div>
-              </div> */}
+              </div>
               {/* END IMAGE */}
-              {/* <div className="details">
+              <div className="details">
                 <div className="extra">
                   <p className="date">
-                    By <a href="#">{singleData?.poster}</a>
+                    {/* By <a href="#">{singleData?.poster}</a> */}
                     <span>{singleData?.date}</span>
                   </p>
                 </div>
                 <h3 className="title">{singleData?.title}</h3>
-              </div> */}
+              </div>
               {/* END DETAILS */}
-              {/* <div className="main_content ">
-                {singleData?.descriptions} */}
+              <div className="main_content ">
+                {singleData?.descriptions}
                 {/* END DESCRIPTION */}
                 {/* <div className="news_share">
-                  <span>Share:</span> */}
-                  {/* <ShareSocial /> */}
+                  <span>Share:</span>
+                  <ShareSocial />*/}
                   {/* END SOCIAL SHARE */}
                 {/* </div> */}
                 {/* END NEWS SHARE */}
-              {/* </div>
+              </div>
             </div>
-          </div> */}
+          </div>
           {/* END BOX INNER */}
-        {/* </div> */}
+        </div>
         {/* END MODALBOX NEWS */}
-      {/* </Modal> */}
+      </Modal>
       {/* END MODAL */}
     </>
   );
