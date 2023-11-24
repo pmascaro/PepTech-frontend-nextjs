@@ -10,17 +10,63 @@ module.exports = [
     descriptions: (
       <>
         <div className="descriptions">
-          <p className="bigger">
-            PLACEHOLDER TEXT
-          </p>
 
-          <p>
+          <div>
+
+          <p>Support my Movember campaign: <a href="https://uk.movember.com/mospace/14529308">Movember Space</a></p>
+
+            <h2>Introduction:</h2>
+            <p>Hi everyone,</p>
+            <p>I'm excited to share with you my continued commitment to wellness and self-discovery. As many of you know, through my work 
+              at <a href="https://www.peptech.ai">Peptech.ai</a>, I've always been driven to uplift the world using Data Science/AI. 
+              However, my mission transcends beyond the professional sphere. It's about personal growth, meaningful impact, and becoming closer to my true self.</p>
+
+            <h3>What's Movember?</h3>
+            <p>Movember is an initiative that I hold dear. It's a global movement focused on men's health, aiming to raise awareness and funds for issues 
+              like prostate cancer, testicular cancer, and mental health. Movember is more than just growing a mustache; it's about igniting crucial 
+              conversations and taking action towards a healthier future for men.</p>
+
+            <h3>Why I Support Movember?</h3>
+            <p>Supporting Movember aligns with my life's principle of 'starting with WHY'. 
+              It's not just about advocating for health externally; it's also about internal exploration and understanding. M
+              ovember resonates with my desire to be an agent of positive change and mirrors my journey towards personal mastery in both Data Science and life itself.</p>
+
+            <h3>Attending UK Men's Retreat: A Step Towards My True Self</h3>
+            <p>This December, I will be attending a Men's Retreat, a significant step on my path to self-discovery. The retreat is an opportunity to pause, reflect, 
+              and connect deeper with my true self. By 'true self', I mean the most authentic version of oneself, unshaped by societal expectations or external influences. 
+              It's about peeling back the layers to uncover our genuine desires, values, and passions. For example, imagine a moment when you felt completely 
+              at peace and in alignment with your actions – that's a glimpse of your true self.</p>
+
+            <h3>How You Can Support Me?</h3>
+            <p>As I embark on this journey, I invite you to join me in supporting Movember. Your contributions will help fund life-saving research and support programs. 
+              You can donate to my Movember campaign <a href="https://uk.movember.com/mospace/14529308">here</a>. Every donation, big or small, makes a significant difference.</p>
+
+            <h2>Conclusion:</h2>
+            <p>As I continue to explore and grow, I hope to inspire others to embark on their paths of self-discovery and wellness. Please feel free to reach out and share your 
+              stories or ask questions. Together, let's embrace this journey of self-improvement and make a positive impact in the world.  
+              
+              {/* <span style="font-size: 24px;"> &#9786;</span> */}
+              {/* <span style="font-size: 24px;">&#9786;</span> */}
+            </p>
+          </div>
+        </div>
+
+
+
+          {/* <p className="bigger">
+            PLACEHOLDER TEXT 
+            
+            <span>&#9786;</span>
+
+          </p> */}
+
+          {/* <p> */}
             {/* Streets empty that are usually busy are remarkable and can evoke the
             sense of historical pictures from before the invention of the
             motorcar. Other things that are different at the moment will be
             queues to get into stores and the lines marked out on the floor to
             show how far apart we should be. */}
-          </p>
+          {/* </p> */}
           {/* <div className="quotebox">
             <div className="icon">
               <Image
@@ -40,19 +86,19 @@ module.exports = [
           </div> */}
           {/* END QUOTEBOX */}
 
-          <p>
+          {/* <p> */}
             {/* The trick here is to look slowly, and then look again. Take the time
             to look in detail and to look at the same thing from different
             angles, with different light, long lenses and wide lenses. Then move
             to the left a bit. You may never feel the need to leave the house
             again. */}
-          </p>
-        </div>
+          {/* </p> */}
+        {/* </div> */}
       </>
     ),
   }
 ];
-  // {
+  //</> {
   //   id: 1,
   //   title: "Format releases a new tool that enables direct video hosting",
   //   img: "/img/news/1.jpg",
@@ -273,4 +319,3 @@ module.exports = [
       // </>
     // ),
   // },
-
