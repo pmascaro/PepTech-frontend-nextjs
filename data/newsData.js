@@ -15,38 +15,29 @@ module.exports = [
 
           <p>Support my Movember campaign: <a href="https://uk.movember.com/mospace/14529308">Movember Space</a></p>
 
-            <h2>Introduction:</h2>
             <p>Hi everyone,</p>
-            <p>I'm excited to share with you my continued commitment to wellness and self-discovery. As many of you know, through my work 
-              at <a href="https://www.peptech.ai">Peptech.ai</a>, I've always been driven to uplift the world using Data Science/AI. 
-              However, my mission transcends beyond the professional sphere. It's about personal growth, meaningful impact, and becoming closer to my true self.</p>
+            <p>Sharing with you my continued journey to wellbeing and self-discovery is important for me.</p>
 
-            <h3>What's Movember?</h3>
-            <p>Movember is an initiative that I hold dear. It's a global movement focused on men's health, aiming to raise awareness and funds for issues 
-              like prostate cancer, testicular cancer, and mental health. Movember is more than just growing a mustache; it's about igniting crucial 
-              conversations and taking action towards a healthier future for men.</p>
+            <h4>What's <a href="https://uk.movember.com">Movember</a>?</h4>
+            <p>Movember is an initiative that I hold dear. It's a global movement focused on men's health, aiming to raise awareness and funds for issues like
+               mental health, as well as prostate or testicular cancer. Movember is more than just growing a moustache; it's about igniting crucial conversations 
+               and taking action towards a healthier future for men.</p>
 
-            <h3>Why I Support Movember?</h3>
-            <p>Supporting Movember aligns with my life's principle of 'starting with WHY'. 
-              It's not just about advocating for health externally; it's also about internal exploration and understanding. M
-              ovember resonates with my desire to be an agent of positive change and mirrors my journey towards personal mastery in both Data Science and life itself.</p>
+            <h4>Why I support Movember?</h4>
+            <p>I started to actively support Movember in 2022, as it aligns with my life's principle of 'starting with WHY'. 
+              It's not just about advocating for health externally; it's also about internal exploration and understanding our wider life purpose. </p>
 
-            <h3>Attending UK Men's Retreat: A Step Towards My True Self</h3>
-            <p>This December, I will be attending a Men's Retreat, a significant step on my path to self-discovery. The retreat is an opportunity to pause, reflect, 
-              and connect deeper with my true self. By 'true self', I mean the most authentic version of oneself, unshaped by societal expectations or external influences. 
-              It's about peeling back the layers to uncover our genuine desires, values, and passions. For example, imagine a moment when you felt completely 
-              at peace and in alignment with your actions – that's a glimpse of your true self.</p>
+            <h4>Attending UK Men's Retreat:</h4>
+            <p>This December 2023, I will be attending a Men's Retreat, a significant step on my path to self-discovery. 
+              The retreat is an opportunity to pause, reflect, and connect deeper with other men who are facing similar challenges. 
+              My intention is to continue to uncover my genuine passions and values as I become, every day, closer to my true self.</p>
 
-            <h3>How You Can Support Me?</h3>
-            <p>As I embark on this journey, I invite you to join me in supporting Movember. Your contributions will help fund life-saving research and support programs. 
-              You can donate to my Movember campaign <a href="https://uk.movember.com/mospace/14529308">here</a>. Every donation, big or small, makes a significant difference.</p>
-
-            <h2>Conclusion:</h2>
-            <p>As I continue to explore and grow, I hope to inspire others to embark on their paths of self-discovery and wellness. Please feel free to reach out and share your 
-              stories or ask questions. Together, let's embrace this journey of self-improvement and make a positive impact in the world.  
-              
-              {/* <span style="font-size: 24px;"> &#9786;</span> */}
-              {/* <span style="font-size: 24px;">&#9786;</span> */}
+            <h4>How could you support me?</h4>
+            <p>As I embark on this journey, I invite you to join me in supporting Movember. Your contributions will help fund life-saving research 
+              and support programmes. You can donate to my Movember campaign  <a href="https://uk.movember.com/mospace/14529308">here</a>. 
+            </p>
+            <p>
+              <u> Thanks in advance for your donation, that means a lot to me: big or small, any help makes a significant difference.</u>
             </p>
           </div>
         </div>
