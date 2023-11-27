@@ -1,5 +1,5 @@
 import Seo from "../components/Seo";
-import News from "../components/news/News";
+import Blog from "../components/blog/Blog";
 import Sidebar from "../components/sidebar/Sidebar";
 
 const index = () => {
@@ -27,7 +27,7 @@ const index = () => {
                     </div>
                   </div>
                   {/* END TITLE */}
-                  <News />
+                  <Blog />
                 </div>
               </div>
               {/* End .container */}
