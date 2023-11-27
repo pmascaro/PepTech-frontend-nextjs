@@ -27,7 +27,7 @@ module.exports = [
     id: 5,
     icon: "/img/svg/paper.svg",
     menuName: "Blog",
-    routePath: "/news",
+    routePath: "/blog",
   },
   {
     id: 6,
