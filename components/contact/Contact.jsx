@@ -60,14 +60,20 @@ const Contact = () => {
           <Map />
           {/* MENU WRAP */}
 
-          <div className="fields">
+           <div className="fields">
             <form
               className="contact_form"
               id="myForm"
-              ref={form}
-              onSubmit={sendEmail}
+              // ref={form}
+              // onSubmit={sendEmail}
             >
               <div className="first">
+                <p style={{ fontSize: '20px' }}>
+                  You can contact me on <a href="https://www.linkedin.com/in/pep-mart%C3%AD-mascaró-monserrat/">LinkedIn</a> or send 
+                  me an email at <a href="mailto:pepmartii@gmail.com">pepmartii@gmail.com</a>.
+                </p>
+              </div>
+              {/* <div className="first">
                 <ul>
                   <li>
                     <input
@@ -76,34 +82,34 @@ const Contact = () => {
                       placeholder="Name"
                       required
                     />
-                  </li>
+                  </li> */}
                   {/* END FIRST NAME */}
 
-                  <li>
+                  {/* <li>
                     <input
                       type="email"
                       name="user_email"
                       placeholder="Email"
                       required
                     />
-                  </li>
+                  </li> */}
                   {/* END EMAIL */}
-
-                  <li>
+                
+                  {/* <li>
                     <textarea
                       name="message"
                       placeholder="Message"
                       required
                     ></textarea>
-                  </li>
+                  </li> */}
                   {/* END SUBJECT MESSAGE */}
-                </ul>
-              </div>
+                {/* </ul> */}
+              {/* </div>
               <div className="tokyo_tm_button">
                 <button type="submit" className="ib-button">
                   Send Message
                 </button>
-              </div>
+              </div> */}
               {/* END SUBMIT BUTTON */}
             </form>
             {/* END FORM */}
