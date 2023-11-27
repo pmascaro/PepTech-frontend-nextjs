@@ -4,7 +4,7 @@ module.exports = [
   {
     id: 1,
     title: "Supporting Movember",
-    img: "/img/news/pep_mo_2023.png",
+    img: "/img/news/pep_cali.png",
     poster: "Pep Marti Mascaro Monserrat",
     date: "24 November 2023",
     descriptions: (
