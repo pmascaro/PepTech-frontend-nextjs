@@ -23,7 +23,7 @@ const Home = () => {
               <Typed
                 strings={[
                   "Senior Data Scientist",
-                  "Generative AI Specialist",
+                  "Generative AI Lead",
                   /*"Mathematician",*/
                   /*"Writer",*/
                 ]}

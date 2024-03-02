@@ -4,7 +4,7 @@ const Intro = () => {
   const introContent = {
     image: "/img/slider/presentation.jpeg",
     name: "Pep Martí Mascaró Monserrat",
-    designation: "Senior Data Scientist & Generative AI Specialist",
+    designation: "Senior Data Scientist & Generative AI Lead",
     text: (
       <>
         <p>
@@ -14,7 +14,7 @@ const Intro = () => {
         power of data analytics and AI to solve real-world challenges.
         </p>
         <p>
-        As a Senior Data Scientist and Generative AI Specialist at British Airways, my commitment to growth and impact is ever-present. 
+        As a Senior Data Scientist and Generative AI Lead at British Airways, my commitment to growth and impact is ever-present. 
         On a technical level, I build AI products designed to make a difference, from streamlining operational processes to 
         enhancing customer experiences. Alongside this technical work, I collaborate with cross-functional teams, guiding projects to 
         successful completion while nurturing valuable relationships with my colleagues and stakeholders.
