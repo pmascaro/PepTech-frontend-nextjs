@@ -54,8 +54,16 @@ const Contact = () => {
                 <h3>Get in Touch</h3>
               </div>
             </div>
+            {/* END TITLE */}
+            <div>
+              <div className="contact_form" style={{ marginTop: '30px' }}>
+                <p style={{ fontSize: '20px' }}>
+                  You can contact me on <a href="https://www.linkedin.com/in/pep-mart%C3%AD-mascaró-monserrat/">LinkedIn</a> or send 
+                  me an email at <a href="mailto:pepmartii@gmail.com">pepmartii@gmail.com</a>.
+                </p>
+              </div>
+            </div>
           </div>
-          {/* END TITLE */}
 
           <Map />
           {/* MENU WRAP */}
@@ -67,12 +75,12 @@ const Contact = () => {
               // ref={form}
               // onSubmit={sendEmail}
             >
-              <div className="first">
+              {/* <div className="first">
                 <p style={{ fontSize: '20px' }}>
                   You can contact me on <a href="https://www.linkedin.com/in/pep-mart%C3%AD-mascaró-monserrat/">LinkedIn</a> or send 
                   me an email at <a href="mailto:pepmartii@gmail.com">pepmartii@gmail.com</a>.
                 </p>
-              </div>
+              </div> */}
               {/* <div className="first">
                 <ul>
                   <li>
@@ -117,7 +125,7 @@ const Contact = () => {
           {/* END FIELDS */}
         </div>
       </div>
-      {/* END COTACT */}
+      {/* END CONTACT */}
     </>
   );
 };
